@@ -12,9 +12,6 @@ import {
    
   
     async function deployP2PLendingFixture() {
-      
-  
-      // const RepayTime = (await time.latest())
   
       const [owner, depositor, borrower] = await hre.ethers.getSigners();
   
